@@ -42,10 +42,6 @@ footer {
 	font-weight: bold;
 }
 
-#noCookieShow:hover {
-	animation: hitRun 1s;
-}
-
 @keyframes hitEnter {
         0%   { bottom: -50px; }
         100% { bottom: 0px; }
@@ -57,7 +53,7 @@ footer {
 }
 
 @keyframes topEnter {
-        0%   { padding-left: 1000px; color: #ddd; }
+        0%   { padding-left: 50px; color: #ddd; }
         100% { padding-left: 5px; color: #000; }
 }
 
