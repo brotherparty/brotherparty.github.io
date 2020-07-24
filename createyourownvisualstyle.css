@@ -24,8 +24,19 @@ section, footer {
 }
 
 footer {
+	margin-top: 2em;
 	font-style: italic;
 	font-size: 0.8em;
+	color: #666;
+	margin-bottom: 3em;
+}
+
+div#redflag {
+	font-size: 3em;
+}
+p#noredflag {
+	font-style: italic;
+	font-size: 0.9em;
 }
 
 #noCookieShow {
@@ -56,4 +67,5 @@ footer {
         0%   { padding-left: 50px; color: #ddd; }
         100% { padding-left: 5px; color: #000; }
 }
+
 
